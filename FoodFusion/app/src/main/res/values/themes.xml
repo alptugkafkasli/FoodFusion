@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FoodFusion" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/toolbar_background</item>
+         <item name="colorPrimaryVariant">@color/toolbar_background</item>
+
+    </style>
+
+    <style name="Theme.FoodFusion" parent="Base.Theme.FoodFusion" />
+</resources>

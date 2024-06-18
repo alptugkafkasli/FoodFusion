@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/Home"
+        android:id="@+id/homefoodfusion"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"
+        >
+    </item>
+    <item android:title="@string/Breakfast"
+          android:id="@+id/breakfast"
+          >
+    </item>
+    <item
+        android:title="@string/Soup"
+        android:id="@+id/soup"
+        >
+
+    </item>
+    <item
+        android:title="@string/Appetizer"
+        android:id="@+id/appetizer"
+        >
+
+    </item>
+    <item
+        android:title="@string/Main"
+        android:id="@+id/main_course"
+        >
+
+    </item>
+    <item
+        android:title="@string/Salad"
+        android:id="@+id/salad"
+        >
+
+    </item>
+    <item
+        android:title="@string/Dessert"
+        android:id="@+id/dessert"
+        >
+
+    </item>
+    <item
+        android:title="@string/Mezze"
+        android:id="@+id/mezze"
+        >
+
+    </item>
+    <item
+        android:title="@string/Language"
+        android:id="@+id/language"
+        >
+        <menu>
+            <item android:title="@string/Language"
+                  android:id="@+id/language_en"
+                  android:icon="@drawable/en_image">
+
+            </item>
+            <item android:title="@string/Language"
+                  android:id="@+id/language_tr"
+                  android:icon="@drawable/tr_image">
+
+            </item>
+
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dailyFragment2">
+    <fragment
+        android:id="@+id/appetizerFragment"
+        android:name="com.alptugkafkasli.foodfusion.AppetizerFragment"
+        android:label="fragment_appetizer"
+        tools:layout="@layout/fragment_appetizer" />
+    <fragment
+        android:id="@+id/breakfastFragment"
+        android:name="com.alptugkafkasli.foodfusion.BreakfastFragment"
+        android:label="fragment_breakfast"
+        tools:layout="@layout/fragment_breakfast" />
+    <fragment
+        android:id="@+id/dailyFragment2"
+        android:name="com.alptugkafkasli.foodfusion.DailyFragment"
+        android:label="fragment_daily"
+        tools:layout="@layout/fragment_daily" >
+        <action
+            android:id="@+id/action_dailyFragment2_to_breakfastFragment"
+            app:destination="@id/breakfastFragment" />
+        <action
+            android:id="@+id/action_dailyFragment2_to_appetizerFragment"
+            app:destination="@id/appetizerFragment" />
+        <action
+            android:id="@+id/action_dailyFragment2_to_soupFragment"
+            app:destination="@id/soupFragment" />
+        <action
+            android:id="@+id/action_dailyFragment2_to_saladFragment"
+            app:destination="@id/saladFragment" />
+        <action
+            android:id="@+id/action_dailyFragment2_to_mezzeFragment"
+            app:destination="@id/mezzeFragment" />
+        <action
+            android:id="@+id/action_dailyFragment2_to_maincourseFragment"
+            app:destination="@id/maincourseFragment" />
+        <action
+            android:id="@+id/action_dailyFragment2_to_dessertFragment"
+            app:destination="@id/dessertFragment" />
+        <action
+            android:id="@+id/action_dailyFragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dessertFragment"
+        android:name="com.alptugkafkasli.foodfusion.DessertFragment"
+        android:label="fragment_dessert"
+        tools:layout="@layout/fragment_dessert" />
+    <fragment
+        android:id="@+id/maincourseFragment"
+        android:name="com.alptugkafkasli.foodfusion.MaincourseFragment"
+        android:label="fragment_maincourse"
+        tools:layout="@layout/fragment_maincourse" />
+    <fragment
+        android:id="@+id/mezzeFragment"
+        android:name="com.alptugkafkasli.foodfusion.MezzeFragment"
+        android:label="fragment_mezze"
+        tools:layout="@layout/fragment_mezze" />
+    <fragment
+        android:id="@+id/saladFragment"
+        android:name="com.alptugkafkasli.foodfusion.SaladFragment"
+        android:label="fragment_salad"
+        tools:layout="@layout/fragment_salad" />
+    <fragment
+        android:id="@+id/soupFragment"
+        android:name="com.alptugkafkasli.foodfusion.SoupFragment"
+        android:label="fragment_soup"
+        tools:layout="@layout/fragment_soup" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.alptugkafkasli.foodfusion.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_dailySoupFragment"
+            app:destination="@id/dailySoupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dailySoupFragment"
+        android:name="com.alptugkafkasli.foodfusion.DailySoupFragment"
+        android:label="fragment_daily_soup"
+        tools:layout="@layout/fragment_daily_soup" />
+</navigation>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FoodFusion</string>
+    <string name="Home">Ana sayfa</string>
+    <string name="Breakfast">Kahvaltı</string>
+    <string name="Soup">Çorba</string>
+    <string name="Appetizer">Ara Sıcak</string>
+    <string name="Main">Ana Yemek</string>
+    <string name="Salad">Salata</string>
+    <string name="Dessert">Tatlı</string>
+    <string name="Mezze">Meze</string>
+    <string name="Language">Dil Seçeneği</string>
+    <string name="Slogan">"Günlük Lezzetler, Bir Dokunuş Uzağınızda"</string>
+    <string name="Entry">"Food Fusion'a Hoş Geldiniz!
+
+Günlük tariflerle damak zevkinize uygun yemekler keşfedin. İster deneyimli bir şef olun, ister yeni başlayan, kolay tariflerle unutulmaz yemekler yaratın. Topluluğumuza katılın ve bugün pişirmeye başlayın. Afiyet olsun!"</string>
+    <string name="DailySoup">"Günün Çorbası"</string>
+    <string name="DailyAppetizer">"Günün Arasıcağı"</string>
+    <string name="DailyMaincourse">"Günün Ana Yemeği"</string>
+    <string name="DailyDessert">"Günün Tatlısı"</string>
+    <string name="DailyMezze">"Günün Mezesi"</string>
+    <string name="DailyBreakfast">"Günün Kahvaltısı"</string>
+    <string name="DailySalad">"Günün Salatası"</string>
+
+    <string name="banner_ad_unit_id">ID ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="Recommendation">"Yeni Öneri"</string>
+    <string name="Ingredients">"Malzemeler"</string>
+    <string name="Recipes">"Tarif"</string>
+
+
+
+</resources>

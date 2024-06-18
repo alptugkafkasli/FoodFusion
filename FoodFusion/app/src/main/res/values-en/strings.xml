@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FoodFusion</string>
+    <string name="Home">Home</string>
+    <string name="Breakfast">Breakfast</string>
+    <string name="Soup">Soup</string>
+    <string name="Appetizer">Appetizer</string>
+    <string name="Main">Main</string>
+    <string name="Salad">Salad</string>
+    <string name="Dessert">Dessert</string>
+    <string name="Mezze">Mezze</string>
+    <string name="Language">Language</string>
+    <string name="Slogan">Daily Delights, Just a Tap Away</string>
+    <string name="Entry">"Welcome to Food Fusion!
+
+Discover daily recipes tailored to your taste. Whether you're a seasoned chef or a beginner, enjoy easy-to-follow recipes and create memorable meals effortlessly. Join our community and start cooking today. Bon appétit!"</string>
+    <string name="DailySoup">"Soup of the Day"</string>
+    <string name="DailyAppetizer">"Appetizer of the Day"</string>
+    <string name="DailyMaincourse">"Maincourse of the Day"</string>
+    <string name="DailyDessert">"Dessert of the Day"</string>
+    <string name="DailyMezze">"Mezze of the Day"</string>
+    <string name="DailyBreakfast">"Breakfast of the Day"</string>
+    <string name="DailySalad">"Salad of the Day"</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3206679867018541/4351858023</string>
+
+    <string name="Recommendation">"new recommendation"</string>
+
+    <string name="Ingredients">"Ingredients"</string>
+    <string name="Recipes">"Recipes"</string>
+
+
+</resources>

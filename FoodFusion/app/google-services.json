@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "940764606842",
+    "project_id": "foodfusion-2bb53",
+    "storage_bucket": "foodfusion-2bb53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940764606842:android:59098ef201e34fbc24a6c3",
+        "android_client_info": {
+          "package_name": "com.alptugkafkasli.foodfusion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-l9VE0dEHSpwXH2el9Rn2e214Y6KxLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
